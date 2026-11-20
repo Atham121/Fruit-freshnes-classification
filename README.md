@@ -27,5 +27,4 @@ Edge deployment, multi-class classification, IoT integration.
 Run the notebooks in order:
 1. `01_train_efficientnetb0` / `02_train_resnet50` / `03_mobilenetv2`: train the CNNs
 2. `04_extract_layers_pca`: extract early, middle, and final layer features and apply PCA
-3. `05_random_forest_xgboost`: classify the PCA features
-4. `06_shap_explainability`: explain predictions with SHAP
+3. `ml_model_efficient`: classify the PCA features and explain predictions with SHAP
